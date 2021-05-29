@@ -12,8 +12,13 @@ public class Main {
                 break;
             case 23:
                 System.out.println(a + "Правда");
-                for (a = 23; a < 50; a++) {
-                    System.out.println(a); }
+                while (a < 50) {
+
+
+//                for (a = 23; a < 50; a++)
+                    System.out.println(a);
+                a++;
+                }
                 break;
             default:
                 System.out.println("default = else");
