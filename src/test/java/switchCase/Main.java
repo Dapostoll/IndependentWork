@@ -12,7 +12,7 @@ public class Main {
                 break;
             case 23:
                 System.out.println(a + "Правда");
-                for (a = 0; a < 50; a++) {
+                for (a = 23; a < 50; a++) {
                     System.out.println(a); }
                 break;
             default:
